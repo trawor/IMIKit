@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* IMIKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* IMIKitAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		1F26668F1083662C008162A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F26668D1083662C008162A3 /* Default.png */; };
+		1F2666901083662C008162A3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F26668E1083662C008162A3 /* Icon.png */; };
+		1F71850711B0E7DA000A6802 /* AdHoc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F71850611B0E7DA000A6802 /* AdHoc.plist */; };
+		1FF61AB1135597D00070316E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1FF61B1F135598B40070316E /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF61B14135598B40070316E /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF61B20135598B40070316E /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF61B15135598B40070316E /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF61B21135598B40070316E /* IMIBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF61B16135598B40070316E /* IMIBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF61B22135598B40070316E /* IMIBaseAppHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF61B17135598B40070316E /* IMIBaseAppHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF61B23135598B40070316E /* IMIBaseDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF61B18135598B40070316E /* IMIBaseDeviceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF61B24135598B40070316E /* IMIBaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF61B19135598B40070316E /* IMIBaseEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF61B25135598B40070316E /* IMIBaseNSObjectHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF61B1A135598B40070316E /* IMIBaseNSObjectHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF61B26135598B40070316E /* IMIBaseNSStringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF61B1B135598B40070316E /* IMIBaseNSStringHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF61B27135598B40070316E /* IMIBasePrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF61B1C135598B40070316E /* IMIBasePrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF61B32135598C30070316E /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF61B2A135598C30070316E /* GTMBase64.m */; };
+		1FF61B33135598C30070316E /* IMIBaseAppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF61B2B135598C30070316E /* IMIBaseAppHelper.m */; };
+		1FF61B34135598C30070316E /* IMIBaseDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF61B2C135598C30070316E /* IMIBaseDeviceHelper.m */; };
+		1FF61B35135598C30070316E /* IMIBaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF61B2D135598C30070316E /* IMIBaseEvent.m */; };
+		1FF61B36135598C30070316E /* IMIBaseNSObjectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF61B2E135598C30070316E /* IMIBaseNSObjectHelper.m */; };
+		1FF61B37135598C30070316E /* IMIBaseNSStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF61B2F135598C30070316E /* IMIBaseNSStringHelper.m */; };
+		1FF61B3F13559D3F0070316E /* TestC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF61B3E13559D3F0070316E /* TestC.m */; };
+		1FF61B4213559E0D0070316E /* TestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF61B4113559E0D0070316E /* TestBase.m */; };
+		1FF61B431355A4320070316E /* IMIBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF61AB0135597D00070316E /* IMIBase.a */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FF61B3A13559A330070316E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF61AAF135597D00070316E;
+			remoteInfo = IMIBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* IMIKitAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMIKitAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* IMIKitAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMIKitAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* IMIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F26668D1083662C008162A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1F26668E1083662C008162A3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1F71850611B0E7DA000A6802 /* AdHoc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AdHoc.plist; sourceTree = "<group>"; };
+		1FF61AB0135597D00070316E /* IMIBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = IMIBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF61B14135598B40070316E /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		1FF61B15135598B40070316E /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		1FF61B16135598B40070316E /* IMIBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMIBase.h; sourceTree = "<group>"; };
+		1FF61B17135598B40070316E /* IMIBaseAppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMIBaseAppHelper.h; sourceTree = "<group>"; };
+		1FF61B18135598B40070316E /* IMIBaseDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMIBaseDeviceHelper.h; sourceTree = "<group>"; };
+		1FF61B19135598B40070316E /* IMIBaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMIBaseEvent.h; sourceTree = "<group>"; };
+		1FF61B1A135598B40070316E /* IMIBaseNSObjectHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMIBaseNSObjectHelper.h; sourceTree = "<group>"; };
+		1FF61B1B135598B40070316E /* IMIBaseNSStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMIBaseNSStringHelper.h; sourceTree = "<group>"; };
+		1FF61B1C135598B40070316E /* IMIBasePrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMIBasePrefix.h; sourceTree = "<group>"; };
+		1FF61B2A135598C30070316E /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		1FF61B2B135598C30070316E /* IMIBaseAppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMIBaseAppHelper.m; sourceTree = "<group>"; };
+		1FF61B2C135598C30070316E /* IMIBaseDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMIBaseDeviceHelper.m; sourceTree = "<group>"; };
+		1FF61B2D135598C30070316E /* IMIBaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMIBaseEvent.m; sourceTree = "<group>"; };
+		1FF61B2E135598C30070316E /* IMIBaseNSObjectHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMIBaseNSObjectHelper.m; sourceTree = "<group>"; };
+		1FF61B2F135598C30070316E /* IMIBaseNSStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMIBaseNSStringHelper.m; sourceTree = "<group>"; };
+		1FF61B3D13559D3F0070316E /* TestC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestC.h; sourceTree = "<group>"; };
+		1FF61B3E13559D3F0070316E /* TestC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestC.m; sourceTree = "<group>"; };
+		1FF61B4013559E0D0070316E /* TestBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBase.h; sourceTree = "<group>"; };
+		1FF61B4113559E0D0070316E /* TestBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBase.m; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* IMIKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMIKit_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* IMIKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IMIKit-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF61B431355A4320070316E /* IMIBase.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF61AAD135597D00070316E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF61AB1135597D00070316E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* IMIKitAppDelegate.h */,
+				1D3623250D0F684500981E51 /* IMIKitAppDelegate.m */,
+				1FF61B3D13559D3F0070316E /* TestC.h */,
+				1FF61B3E13559D3F0070316E /* TestC.m */,
+				1FF61B4013559E0D0070316E /* TestBase.h */,
+				1FF61B4113559E0D0070316E /* TestBase.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* IMIKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF61AB2135597D00070316E /* IMIBase */ = {
+			isa = PBXGroup;
+			children = (
+				1FF61B3C13559BAA0070316E /* Base64 */,
+				1FF61B16135598B40070316E /* IMIBase.h */,
+				1FF61B1C135598B40070316E /* IMIBasePrefix.h */,
+				1FF61B17135598B40070316E /* IMIBaseAppHelper.h */,
+				1FF61B2B135598C30070316E /* IMIBaseAppHelper.m */,
+				1FF61B18135598B40070316E /* IMIBaseDeviceHelper.h */,
+				1FF61B2C135598C30070316E /* IMIBaseDeviceHelper.m */,
+				1FF61B19135598B40070316E /* IMIBaseEvent.h */,
+				1FF61B2D135598C30070316E /* IMIBaseEvent.m */,
+				1FF61B1A135598B40070316E /* IMIBaseNSObjectHelper.h */,
+				1FF61B2E135598C30070316E /* IMIBaseNSObjectHelper.m */,
+				1FF61B1B135598B40070316E /* IMIBaseNSStringHelper.h */,
+				1FF61B2F135598C30070316E /* IMIBaseNSStringHelper.m */,
+			);
+			path = IMIBase;
+			sourceTree = "<group>";
+		};
+		1FF61B3C13559BAA0070316E /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				1FF61B15135598B40070316E /* GTMDefines.h */,
+				1FF61B14135598B40070316E /* GTMBase64.h */,
+				1FF61B2A135598C30070316E /* GTMBase64.m */,
+			);
+			name = Base64;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				1FF61AB0135597D00070316E /* IMIBase.a */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				1FF61AB2135597D00070316E /* IMIBase */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* IMIKit-Info.plist */,
+				32CA4F630368D1EE00C91783 /* IMIKit_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				1F26668D1083662C008162A3 /* Default.png */,
+				1F26668E1083662C008162A3 /* Icon.png */,
+				1F71850611B0E7DA000A6802 /* AdHoc.plist */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FF61AAE135597D00070316E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF61B1F135598B40070316E /* GTMBase64.h in Headers */,
+				1FF61B20135598B40070316E /* GTMDefines.h in Headers */,
+				1FF61B21135598B40070316E /* IMIBase.h in Headers */,
+				1FF61B22135598B40070316E /* IMIBaseAppHelper.h in Headers */,
+				1FF61B23135598B40070316E /* IMIBaseDeviceHelper.h in Headers */,
+				1FF61B24135598B40070316E /* IMIBaseEvent.h in Headers */,
+				1FF61B25135598B40070316E /* IMIBaseNSObjectHelper.h in Headers */,
+				1FF61B26135598B40070316E /* IMIBaseNSStringHelper.h in Headers */,
+				1FF61B27135598B40070316E /* IMIBasePrefix.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* IMIKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IMIKitTest" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				1F5C793C1152030E00819DBA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF61B3B13559A330070316E /* PBXTargetDependency */,
+			);
+			name = IMIKitTest;
+			productName = IMIKit;
+			productReference = 1D6058910D05DD3D006BFB54 /* IMIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FF61AAF135597D00070316E /* IMIBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF61AD4135597D10070316E /* Build configuration list for PBXNativeTarget "IMIBase" */;
+			buildPhases = (
+				1FF61AAC135597D00070316E /* Sources */,
+				1FF61AAD135597D00070316E /* Frameworks */,
+				1FF61AAE135597D00070316E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMIBase;
+			productName = IMIBase;
+			productReference = 1FF61AB0135597D00070316E /* IMIBase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = imi.im;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IMIKit" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* IMIKitTest */,
+				1FF61AAF135597D00070316E /* IMIBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F26668F1083662C008162A3 /* Default.png in Resources */,
+				1F2666901083662C008162A3 /* Icon.png in Resources */,
+				1F71850711B0E7DA000A6802 /* AdHoc.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F5C793C1152030E00819DBA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "REV=`svnversion -nc | /usr/bin/sed -e 's/^[^:]*://;s/[A-Za-z]//' | grep \"[0-9]\"`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $REV\" \"${TARGET_BUILD_DIR}\"/${INFOPLIST_PATH}";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* IMIKitAppDelegate.m in Sources */,
+				1FF61B3F13559D3F0070316E /* TestC.m in Sources */,
+				1FF61B4213559E0D0070316E /* TestBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF61AAC135597D00070316E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF61B32135598C30070316E /* GTMBase64.m in Sources */,
+				1FF61B33135598C30070316E /* IMIBaseAppHelper.m in Sources */,
+				1FF61B34135598C30070316E /* IMIBaseDeviceHelper.m in Sources */,
+				1FF61B35135598C30070316E /* IMIBaseEvent.m in Sources */,
+				1FF61B36135598C30070316E /* IMIBaseNSObjectHelper.m in Sources */,
+				1FF61B37135598C30070316E /* IMIBaseNSStringHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FF61B3B13559A330070316E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF61AAF135597D00070316E /* IMIBase */;
+			targetProxy = 1FF61B3A13559A330070316E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IMIKit_Prefix.pch;
+				INFOPLIST_FILE = "IMIKit-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = IMIKit;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IMIKit_Prefix.pch;
+				INFOPLIST_FILE = "IMIKit-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = IMIKit;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1F71850111B0E762000A6802 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = AdHoc.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		1F71850211B0E762000A6802 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IMIKit_Prefix.pch;
+				INFOPLIST_FILE = "IMIKit-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = IMIKit;
+				SDKROOT = iphoneos;
+			};
+			name = AdHoc;
+		};
+		1F71850311B0E76E000A6802 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MENG WANG";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E2733F93-BBAB-4679-96FE-DDDAA4A51753";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		1F71850411B0E76E000A6802 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IMIKit_Prefix.pch;
+				INFOPLIST_FILE = "IMIKit-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = IMIKit;
+				SDKROOT = iphoneos;
+			};
+			name = AppStore;
+		};
+		1FF61ACC135597D10070316E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/IMIBase.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FF61ACD135597D10070316E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/IMIBase.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FF61ACE135597D10070316E /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/IMIBase.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AdHoc;
+		};
+		1FF61ACF135597D10070316E /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/IMIBase.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AppStore;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DDEBUG";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IMIKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				1F71850211B0E762000A6802 /* AdHoc */,
+				1F71850411B0E76E000A6802 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF61AD4135597D10070316E /* Build configuration list for PBXNativeTarget "IMIBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF61ACC135597D10070316E /* Debug */,
+				1FF61ACD135597D10070316E /* Release */,
+				1FF61ACE135597D10070316E /* AdHoc */,
+				1FF61ACF135597D10070316E /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IMIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				1F71850111B0E762000A6802 /* AdHoc */,
+				1F71850311B0E76E000A6802 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
